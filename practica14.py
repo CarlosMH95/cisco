@@ -21,4 +21,3 @@ for i in datosSeparados:
             dato2=float(dato)
             new_value=my_variable.save_value({'value':dato2})
             print("Envio: ", a)
-
