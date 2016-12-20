@@ -55,6 +55,5 @@ a=0
 for x in listSinOrdenar:
     a+=1
     new_value=my_variable.save_value({'value':x[3], "context": {"lat": float(x[1]), "lng": float(x[2])}, "timestamp":int(x[0])*1000})
-    time.sleep(2)
     print("Envio: ", a)
 
