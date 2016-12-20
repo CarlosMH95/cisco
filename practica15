@@ -1,0 +1,7 @@
+nombres=["Juan","Carlos","Pepe","Frank","Maria"]
+nombres2=nombres
+nombres.append("CARLA")
+
+print (nombres, nombres2)
+l=[ i for i in range(1,10) if i%2==0]
+print (l)
