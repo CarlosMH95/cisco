@@ -1,0 +1,1 @@
+URLBASE = "http://earthquake.usgs.gov/fdsnws/event/1/query"
