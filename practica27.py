@@ -4,7 +4,7 @@ from ubidots import ApiClient
 import time
 def obtenerInfoSismos():
     response = requests.get(
-        'http://earthquake.usgs.gov/fdsnws/event/1/query?format=text&starttime=2016-04-16&endtime=2016-06-05')
+        'http://earthquake.usgs.gov/fdsnws/event/1/query?format=text&starttime=2016-01-01&endtime=2016-02-01')
     data = response.text
     a = 0
     datosSeparados = data.split("\n")
@@ -26,3 +26,8 @@ while True:
     print(i)
     i+=1
     time.sleep(0.5)
+
+
+
+#'http://earthquake.usgs.gov/fdsnws/event/1/query?format=text&starttime=2016-02-02&endtime=2016-03-01'
+#'http://earthquake.usgs.gov/fdsnws/event/1/query?format=text&starttime=2016-03-02&endtime=2016-04-01'
