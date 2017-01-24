@@ -1,10 +1,11 @@
 from practica35.interfaces.usuario.creacion_usuario import Ui_creacion_usuario
+from practica35.interfaces.usuario.listar_usuarios import Ui_usuarios
 from PyQt5 import QtWidgets
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     Form = QtWidgets.QWidget()
-    ui = Ui_creacion_usuario()
+    ui = Ui_usuarios()
     ui.setupUi(Form)
 
     Form.show()
